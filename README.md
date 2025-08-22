@@ -5,6 +5,9 @@
 数据集格式：
 视频放在dataset/video.mp4，
 鼠标标注数据：放在dataset/mouse_data/data.txt
+## 提示：
+主机建议使用linux带gnome或者kde plasma桌面环境
+
 
 ## 鼠标标注示例格式（每帧标注一次鼠标位置）
 #格式：时间 鼠标{x y} 左右键
@@ -37,11 +40,24 @@
 点击开始，开始训练
 
 训练完成生成model文件夹，并会在model/目录创建一个model.bin文件
+# 严肃警告！
+运行main.py的时候，**如果AI进行了危险行为**，赶紧按下**esc**两次，退出程序
 
-## 注意事项
+* ### **本项目仅用于*娱乐*，切勿在日常使用！！！！**
+*  ### **再次强调：本项目仅用于*娱乐*，切勿在日常使用！！！！！**
+**请勿在主力电脑上使用！否则后果自负！！**
+
+# 注意事项
 1. 本人12岁，可能做的不太好，欢迎指正
-2. 处理依赖：pyautogui,python3.13,numpy,opencv-python,pynput
+2. 处理依赖：pyautogui,python3.13,numpy,opencv-python,pynput,pyscreeze,pillow,torch,torchvision,tqdm,mss
+3. 主机上的依赖：gnome-screenshot
+
 
 github.com/imjumping
 
-请遵守协议：MIT
+*请遵守协议：MIT*
+
+训练完毕，点击main.py，开始让AI帮你用PC
+
+😁 祝你好运！
+
