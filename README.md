@@ -34,7 +34,7 @@
 …
 这个格式较为容易理解，也比较方便。
 ---
-## Get start!
+## Get started!
 打开train.py
 
 点击开始，开始训练
